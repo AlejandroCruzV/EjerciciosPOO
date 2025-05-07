@@ -6,22 +6,22 @@ package ProyectoOrdenCompra;
  * valores en el constructor e implementar sus respectivos métodos getter.
  */
 public class Producto {
-    private String manufacturer;
+    private Fabricante manufacturer;
     private String name;
     private float price;
 
 
-    public Producto(String manufacturer, String name, float price) {
+    public Producto(Fabricante manufacturer, String name, float price) {
         this.manufacturer = manufacturer;
         this.name = name;
         this.price = price;
     }
 
-    public String getManufacturer() {
+    public Fabricante getManufacturer() {
         return manufacturer;
     }
 
-    public void setManufacturer(String manufacturer) {
+    public void setManufacturer(Fabricante manufacturer) {
         this.manufacturer = manufacturer;
     }
 

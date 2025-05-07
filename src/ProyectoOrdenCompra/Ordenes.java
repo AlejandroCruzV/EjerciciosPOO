@@ -34,14 +34,14 @@ import java.util.Date;
 public class Ordenes {
     public static void main(String[] args) {
         //Se crean los productos para poder asignarcelos a las ordenCompra
-        Producto producto1 = new Producto("Samsung", "TV 50 pulgadas", 1000);
-        Producto producto2 = new Producto("LG", "Refrigerador", 800);
-        Producto producto3 = new Producto("Sony", "PlayStation 5", 500);
-        Producto producto4 = new Producto("Apple", "iPhone 15", 1200);
-        Producto producto5 = new Producto("Ikea", "Silla de oficina", 150);
-        Producto producto6 = new Producto("HP", "Laptop", 900);
-        Producto producto7 = new Producto("Nike", "Zapatos deportivos", 120);
-        Producto producto8 = new Producto("Adidas", "Camiseta", 50);
+        Producto producto1 = new Producto(Fabricante.SAMSUNG, "TV 50 pulgadas", 1000);
+        Producto producto2 = new Producto(Fabricante.LG, "Refrigerador", 800);
+        Producto producto3 = new Producto(Fabricante.SONY, "PlayStation 5", 500);
+        Producto producto4 = new Producto(Fabricante.APPLE, "iPhone 15", 1200);
+        Producto producto5 = new Producto(Fabricante.IKEA, "Silla de oficina", 150);
+        Producto producto6 = new Producto(Fabricante.HP, "Laptop", 900);
+        Producto producto7 = new Producto(Fabricante.NIKE, "Zapatos deportivos", 120);
+        Producto producto8 = new Producto(Fabricante.ADIDAS, "Camiseta", 50);
 
         //Se llena informacion para la orden de compra 1
         OrdenCompra ordenC1=new OrdenCompra("Orden de compra1");
