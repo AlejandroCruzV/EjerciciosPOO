@@ -1,4 +1,4 @@
-package ProyectoOrdenCompra;
+package org.acruzv.proyectoOrdenCompra;
 /**
  * DATE WRITEN: 22-03-2025
  * @author ALEJANDRO CRUZ VELAZQUEZ

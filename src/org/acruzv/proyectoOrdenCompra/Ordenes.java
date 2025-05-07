@@ -1,4 +1,4 @@
-package ProyectoOrdenCompra;
+package org.acruzv.proyectoOrdenCompra;
 
 import java.util.Date;
 
