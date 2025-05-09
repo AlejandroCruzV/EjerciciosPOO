@@ -3,7 +3,12 @@ package org.acruzv.proyectofacturas;
 import org.acruzv.proyectofacturas.modelo.*;
 
 import java.util.Scanner;
-
+/**
+ * DATE WRITEN: 07-04-2025
+ * @author ALEJANDRO CRUZ VELAZQUEZ
+ * Ejercicio del curso en UDEMY "Máster Completo en Java de cero a experto" por Andrés Guzmán
+ * Sección 16: Programación Orientada a Objetos: Ejemplo Facturas
+ */
 public class EjemploFacturas {
     public static void main(String[] args) {
         Cliente cliente = new Cliente();
