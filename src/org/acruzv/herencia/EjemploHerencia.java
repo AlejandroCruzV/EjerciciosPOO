@@ -1,7 +1,13 @@
 package org.acruzv.herencia;
 
 import org.acruzv.herencia.modelo.*;
-
+/**
+ * DATE WRITEN: 08-04-2025
+ *
+ * @author ALEJANDRO CRUZ VELAZQUEZ
+ * Ejercicio del curso en UDEMY "Máster Completo en Java de cero a experto" por Andrés Guzmán
+ * Sección 18: Programación Orientada a Objetos: Herencia
+ */
 public class EjemploHerencia {
     public static void main(String[] args) {
         Alumno alumno = new Alumno();
